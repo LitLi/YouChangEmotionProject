@@ -1,4 +1,4 @@
-# <YouChang>-EmotionProject
+# YouChang（友唱） -EmotionProject
 
 Microsoft teamed up with Gump Come, a provider of smart vending machines, to develop a way to monitor the working status of its machines and to get real-time information on replenishment needs. 
 17
