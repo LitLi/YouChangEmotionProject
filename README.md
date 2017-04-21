@@ -1,23 +1,20 @@
 # YouChang（友唱） -EmotionProject
 
-友唱Emotion Project主要作用是帮助开发者了解[微软认知服务表情API](https://www.microsoft.com/cognitive-services/en-us/emotion-api)的使用， 
+友唱Emotion Project是基于[微软认知服务表情API](https://www.microsoft.com/cognitive-services/en-us/emotion-api)的实现友唱用户情感识别的代码样例。该样例包括以下Azure服务：
+- Azure Linux VM
+- Azure Storage
+- Azure Cognitive Service: Emotion API
+第三方的产品：
+- [libcurl](https://curl.haxx.se/libcurl/c/libcurl.html)
 
-## Customer ##
-[Gump Come](http://www.gumpcome.com/) is a leading AI innovation-oriented provider of smart vending machines and smart micro-supermarkets in China. These machines integrate the use of cameras, multi-touch, voice interaction, and big data analysis to realize new human-computer interaction patterns. 
- 
-## Pain point ##
-To date, Gump Come has no solution that can monitor vending machine health status or get real-time information on whether a device is working. Any device needing attention usually requires two onsite visits—once to diagnose the issue and again to return with the component to fix the issue. All this adds to the cost of maintaining the machines.
-The Gump Come goods manager must check on the selling status of the vending machines to see if they need replenishing. They want to develop an app for this. The goods manager will need training to learn to use the app. They want to get this information only through text or voice on the web app, and to reduce their cost of installing, learning, and updating the application. 
-## Solution ##
-1. Use Azure IoT Hub to collect data on supplies and device health for all vending machines and send to the uniform management platform for daily monitoring. This will help the staff to diagnose device issues online, which can save on maintenance costs and help realize predictive maintenance cost savings.
-2. Based on Bot Framework and LUIS Services, build a vending machine management bot for an operator to check on vending machines and the status of their goods supply.
+该样例也可以作为在C语言环境下使用libcurl，实现调用微软认知服务REST API的样例。
 
-In this Smart Vending Machine solution, Gump Come will use the following Microsoft technologies: 
-- Azure IoT Hub
-- Stream Analytics
-- Azure SQL Database
-- Power BI
-- Bot Framework
+##Emotion Project- 样例场景##
+该样例业务场景是，使用微软认知服务的情感API，识别用户在唱歌过程中的情绪状态。具体技术架构如下：
+*Figure 1. 友唱样例架构图*
+
+![youchang Emotion Project Architecture](./images/YouChang01.PNG)
+
 
 ## Architecture ##
 The Gump Come Smart Vending Machine solution architecture can be represented as follows:
