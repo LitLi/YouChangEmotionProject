@@ -11,6 +11,7 @@
 
 ##Emotion Project- 样例场景##
 该样例业务场景是，使用微软认知服务的情感API，识别用户在唱歌过程中的情绪状态。具体技术架构如下：
+
 *Figure 1. 友唱样例架构图*
 
 ![youchang Emotion Project Architecture](./YouChang01.PNG)
