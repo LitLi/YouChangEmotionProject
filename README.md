@@ -2,7 +2,7 @@
 
 友唱Emotion Project是基于[微软认知服务表情API](https://www.microsoft.com/cognitive-services/en-us/emotion-api)的实现友唱用户情感识别的代码样例。该样例包括以下Azure服务：
 - Azure Linux VM
-- Azure Storage
+- Azure Storage　
 - Azure Cognitive Service: Emotion API
 第三方的产品：
 - [libcurl](https://curl.haxx.se/libcurl/c/libcurl.html)
@@ -22,3 +22,9 @@
 
 * 使用Azure账号登陆Azure管理门户(http://portal.azure.cn)，选择创建虚机，选择Ubuntu16模板，按需选择配置，设置用户名密码，创建。
 * 使用Putty登陆创建的虚机，部署开发环境：
+  1\. install tools: 
+  ```bash
+  sudo apt-get install g++ git make zlib1g-dev libboost-all-dev libssl-dev cmake
+  ```
+
+  
