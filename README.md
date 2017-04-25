@@ -1,4 +1,3 @@
-  
 # YouChang（友唱） -EmotionProject
 
 友唱Emotion Project是基于[微软认知服务表情API](https://www.microsoft.com/cognitive-services/en-us/emotion-api)的实现友唱用户情感识别的代码样例。该样例包括以下Azure服务：
@@ -31,6 +30,11 @@
   ```
   2\. Deploy Curl:
   ```bash
-  git clone  https://github.com/curl/curl.git curl
+  git clone https://github.com/curl/curl.git curl
   ```
-  
+ 
+## 部署2：创建存储账户 ##
+* 使用Azure账号登陆Azure管理门户(http://portal.azure.cn)，选择创建存储账户，设置账号名称，选择类型为Blob存储，设置与虚机同一个资源组，如下图
+
+*Figure 2. 创建存储账户*
+![创建存储账户](./YouChang06.PNG)
