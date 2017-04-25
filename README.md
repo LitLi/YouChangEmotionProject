@@ -23,9 +23,11 @@
 
 * 使用Azure账号登陆Azure管理门户(http://portal.azure.cn)，选择创建虚机，选择Ubuntu16模板，按需选择配置，设置用户名密码，创建。
 * 使用Putty登陆创建的虚机，部署开发环境：
-  1\. install tools: 
+
+  1\.  install tools: 
+ 
   ```bash
-  sudo apt-get install g++ git make zlib1g-dev libboost-all-dev libssl-dev cmake
+  sudo apt-get install g++ git 
   ```
 
   
