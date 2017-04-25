@@ -1,3 +1,4 @@
+
 # YouChang（友唱） -EmotionProject
 
 友唱Emotion Project是基于[微软认知服务表情API](https://www.microsoft.com/cognitive-services/en-us/emotion-api)的实现友唱用户情感识别的代码样例。该样例包括以下Azure服务：
