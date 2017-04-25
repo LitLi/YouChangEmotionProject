@@ -20,7 +20,7 @@
 
 ## 部署1：Linux虚机和Curl环境部署 ##
 
-* 使用Azure账号登陆Azure管理门户(http://portal.azure.cn)，选择创建虚机，选择Ubuntu16模板，按需选择配置，设置用户名密码，创建。
+* 使用Azure账号登陆[Azure管理门户](http://portal.azure.cn)，选择创建虚机，选择Ubuntu16模板，按需选择配置，设置用户名密码，创建。
 * 使用Putty登陆创建的虚机，部署开发环境：
 
   1\.  Install Tools: 
@@ -34,7 +34,12 @@
   ```
  
 ## 部署2：创建存储账户 ##
-* 使用Azure账号登陆Azure管理门户(http://portal.azure.cn)，选择创建存储账户，设置账号名称，选择类型为Blob存储，设置与虚机同一个资源组，如下图
+* 使用Azure账号登陆[Azure管理门户](http://portal.azure.cn)，选择创建存储账户，设置账号名称，选择类型为Blob存储，设置与虚机同一个资源组，如下图
 
 *Figure 2. 创建存储账户*
 ![创建存储账户](./YouChang06.PNG)
+
+创建成功后，进入存储账户设置中复制该账户访问密钥，下一步配置Storage Explorer使用
+* 使用[Microsft Azure Storage Explorer](http://storageexplorer.com/)配置访问存储账户，如下图
+*Figure 3. 配置Storage Explorer*
+![配置Storage Explorer](./YouChang07.PNG)
