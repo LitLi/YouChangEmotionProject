@@ -18,7 +18,6 @@
 ![youchang Emotion Project Architecture](./YouChang01.PNG)
 
 
-## Architecture ##
-The Gump Come Smart Vending Machine solution architecture can be represented as follows:
-- The Gump Come vending machine client will send its device status data to the Azure IoT Hub every 3 minutes. This data includes device status, goods channel status, and temperature. 
-- Stream Analytics will transfer this data into three tables on Azure SQL Database, then Power BI will synch these table updates into the admin dashboard. 
+## 部署1：Linux虚机和Curl环境部署 ##
+
+* 使用Azure账号登陆Azure管理门户（http://portal.azure.cn)，
