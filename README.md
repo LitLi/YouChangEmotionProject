@@ -10,7 +10,7 @@
 ## Emotion Project- 样例场景 ##
 
 该样例业务场景是，使用微软认知服务的情感API，识别用户在唱歌过程中的情绪状态。具体技术架构如下：
-I
+
 *Figure 1. 友唱样例架构图*
 
 ![youchang Emotion Project Architecture](./images/YouChang01.PNG)
@@ -20,7 +20,7 @@ I
 
 * 使用Azure账号登陆[Azure管理门户](http://portal.azure.cn)，选择创建虚机，选择Ubuntu16模板，按需选择配置，设置用户名密码，创建。
 * 使用Putty登陆创建的虚机，部署开发环境：
-P
+
 1\.  Install Tools: 
 
 ```bash  
