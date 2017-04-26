@@ -21,7 +21,6 @@
 
 * 使用Azure账号登陆[Azure管理门户](http://portal.azure.cn)，选择创建虚机，选择Ubuntu16模板，按需选择配置，设置用户名密码，创建。
 * 使用Putty登陆创建的虚机，部署开发环境：
-
   1\.  Install Tools: 
  
   ```bash  sudo apt-get install g++ git autoconf libtool make
@@ -32,8 +31,7 @@
   ./buildconf
   ./configure --with-ssl="$PREFIX"
   make
-  ```
- 
+  ``` 
 ## 部署2：创建存储账户 ##
 * 使用Azure账号登陆[Azure管理门户](http://portal.azure.cn)，选择创建存储账户，设置账号名称，选择类型为Blob存储，设置与虚机同一个资源组，如下图
 
@@ -78,3 +76,6 @@
 ```bash
 curl -v -X POST "https://api.cognitive.azure.cn/emotion/v1.0/recognize" -H "Content-Type: application/json" -H "Ocp-Apim-Subscription-Key:fb82e5514d404a7e89163559e9666610"   --data-ascii "{\"url\": \"https://ycemotionimages.blob.core.chinacloudapi.cn/faceimages/06.jpg\"}"
 ```
+运行结果如下，可以查看表情结果
+
+(./YouChang13.PNG)
