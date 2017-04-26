@@ -33,7 +33,9 @@
   ```bash
   git clone https://github.com/curl/curl.git curl
   ./buildconf
-  ./configure --with-ssl="$PREFIX"
+  
+  ./configure --with-ssl="$PREFIX"
+  
   make
   ```
  
