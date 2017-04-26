@@ -16,16 +16,15 @@
 
 ![youchang Emotion Project Architecture](./YouChang01.PNG)
 
-
 ## 部署1：Linux虚机和Curl环境部署 ##
+
 
 * 使用Azure账号登陆[Azure管理门户](http://portal.azure.cn)，选择创建虚机，选择Ubuntu16模板，按需选择配置，设置用户名密码，创建。
 * 使用Putty登陆创建的虚机，部署开发环境：
 
   1\.  Install Tools: 
  
-  ```bash
-  sudo apt-get install g++ git autoconf libtool make
+  ```bash  sudo apt-get install g++ git autoconf libtool make
   ```
   2\. Deploy Curl:
   ```bash
@@ -64,7 +63,15 @@
 *Figure 6. 创建表情服务*
 ![创建表情服务](./YouChang10.PNG)
 ![创建表情服务](./YouChang11.PNG)
+
 创建成功后，进入表情服务设置中复制该账户访问密钥，后面配置开发中使用
 
 *Figure 7. 复制表情服务密钥*
 ![复制表情服务密钥](./YouChang12.PNG)
+
+
+## 部署4：Curl命令行和代码访问认知服务Rest API ##
+
+微软中国Azure认知服务[表情Rest API](https://dev.cognitive.azure.cn/docs/services/5639d931ca73072154c1ce89/operations/563b31ea778daf121cc3a5fa)中， 对C语言的Rest API建议Curl实现， 这里我们分别给出命令行和libcurl代码两种访问方式的说明。
+
+* 1. 
