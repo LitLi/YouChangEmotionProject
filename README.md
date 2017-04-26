@@ -1,4 +1,3 @@
-
 # YouChang（友唱） -EmotionProject
 
 友唱Emotion Project是基于[微软认知服务表情API](https://www.microsoft.com/cognitive-services/en-us/emotion-api)的实现友唱用户情感识别的代码样例。该样例包括以下Azure服务：
@@ -30,11 +29,10 @@
   sudo apt-get install g++ git autoconf libtool make
   ```
   2\. Deploy Curl:
-  ```
+  ```bash
   git clone https://github.com/curl/curl.git curl
   ./buildconf
-  ./configure --with-ssl="$PREFIX"
-  make
+  make
   ```
  
 ## 部署2：创建存储账户 ##
