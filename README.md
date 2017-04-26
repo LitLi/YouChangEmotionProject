@@ -77,4 +77,5 @@ curl -v -X POST "https://api.cognitive.azure.cn/emotion/v1.0/recognize" -H "Cont
 ```
 运行结果如下，可以查看表情结果
 
-./YouChang13.PNG
+*Figure 8. Curl命令行结果*
+![Curl命令行结果](./YouChang13.PNG)
