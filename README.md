@@ -13,7 +13,7 @@
 
 *Figure 1. 友唱样例架构图*
 
-![youchang Emotion Project Architecture](./YouChang01.PNG)
+![youchang Emotion Project Architecture](./images/YouChang01.PNG)
 
 ## 部署1：Linux虚机和Curl环境部署 ##
 
