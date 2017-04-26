@@ -32,7 +32,7 @@
   ```bash
   git clone https://github.com/curl/curl.git curl
   ./buildconf
-  make
+  make
   ```
  
 ## 部署2：创建存储账户 ##
