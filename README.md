@@ -74,4 +74,7 @@
 
 微软中国Azure认知服务[表情Rest API](https://dev.cognitive.azure.cn/docs/services/5639d931ca73072154c1ce89/operations/563b31ea778daf121cc3a5fa)中， 对C语言的Rest API建议Curl实现， 这里我们分别给出命令行和libcurl代码两种访问方式的说明。
 
-* 1. 
+* 1 Curl命令行
+```bash
+curl -v -X POST "https://api.cognitive.azure.cn/emotion/v1.0/recognize" -H "Content-Type: application/json" -H "Ocp-Apim-Subscription-Key:fb82e5514d404a7e89163559e9666610"   --data-ascii "{\"url\": \"https://ycemotionimages.blob.core.chinacloudapi.cn/faceimages/06.jpg\"}"
+```
