@@ -54,6 +54,17 @@
 * 在 Microsoft Azure Storage Explorer中进入存储账户的blob container下面，上传用户照片
 
 *Figure 5. 上传用户图片*
-![上传用户图片](./YouChang08.PNG)
+![上传用户图片](./YouChang09.PNG)
 
 
+ 
+## 部署3：创建表情服务 ##
+* 使用Azure账号登陆[Azure管理门户](http://portal.azure.cn)，选择智能+分析中的认知服务，设置服务名称和相关配置信息，具体可以参考下图
+
+*Figure 6. 创建表情服务*
+![创建表情服务](./YouChang10.PNG)
+![创建表情服务](./YouChang11.PNG)
+创建成功后，进入表情服务设置中复制该账户访问密钥，后面配置开发中使用
+
+*Figure 7. 复制表情服务密钥*
+![复制表情服务密钥](./YouChang12.PNG)
