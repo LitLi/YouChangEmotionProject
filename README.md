@@ -42,13 +42,18 @@
 ![创建存储账户](./YouChang06.PNG)
 创建成功后，进入存储账户设置中复制该账户访问密钥，后面配置Storage Explorer使用
 * 在[Azure管理门户](http://portal.azure.cn)中，为存储账户创建blob container，如图命名为faceimages
+
 *Figure 3. 创建blob container*
 ![创建blob container](./YouChang08.PNG)
 
 * 使用[Microsft Azure Storage Explorer](http://storageexplorer.com/)配置访问存储账户，如下图
+
 *Figure 4. 配置Storage Explorer*
 ![配置Storage Explorer](./YouChang07.PNG)
 
+* 在 Microsoft Azure Storage Explorer中进入存储账户的blob container下面，上传用户照片
 
+*Figure 5. 上传用户图片*
+![上传用户图片](./YouChang08.PNG)
 
 
